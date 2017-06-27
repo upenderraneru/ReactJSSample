@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React tutorial</title>
+    <script src="https://fb.me/react-0.14.7.js"></script>
+    <script src="https://fb.me/react-dom-0.14.7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.2/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type = "text/babel">
+    var FirstComponent =  React.createClass({
+	render: function(){
+		return	<h1>Hi I am Upender Raneru</h1>
+	}
+});
+
+ReactDOM.render(
+	<FirstComponent/>,
+	document.getElementById('app');
+);
+    </script>
+  </body>
+</html>
